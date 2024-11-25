@@ -1,0 +1,197 @@
+body {
+  font-family: 'Bubblegum Sans', cursive; 
+  background-color: #f9f9f9; 
+}
+
+h2 {
+  font-size: 2.5rem; 
+  color: #333; 
+  text-align: center; 
+  margin: 50px 0;
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  background: linear-gradient(to bottom, #fad432, #ffe15f); 
+  padding: 20px; 
+  border-radius: 50px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.5s; 
+}
+
+h2:hover {
+  transform: scale(1.03); 
+}
+
+p {
+  font-size: 1.2rem; 
+  color: #333; 
+  line-height: 1.5; 
+  text-align: center; 
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner {
+    background: url("rabaru.png")
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+  }
+
+  .profil-sekolah {
+    text-align: left; 
+  }
+  
+  .profil-sekolah p {
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .lingkaran {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    margin: 0 auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+
+  .sejarah {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .crop-img {
+    object-fit: cover;
+  }
+  
+  .tim img {
+    width: 250px;
+    border: 10px solid #fffdfd;
+  }
+  
+  .kontak {
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: black;
+    text-align: center;
+
+  }
+
+  .display-6, .text-center p{
+    color: black;
+  }
+
+
+  .carousel-indicators {
+    position: relative;
+    max-width: 900px;
+    height: 500px; 
+    margin: 50px auto;
+    overflow: hidden;
+    border: 5px solid #fffdfd;
+    border-radius: 10px;
+  }
+  
+
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .slides img {
+    aspect-ratio: 16 / 9; 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  button.prev,
+  button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fffdfd;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  button.prev {
+    left: 10px;
+  }
+
+  button.next {
+    right: 10px;
+  }
+
+  button.prev:hover,
+  button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+.display-3, .display-6{
+  font-size: 40px;
+
+}
+
+.btn-lg{
+  background-color: rgb(198, 25, 25);
+  border-color: rgb(198, 25, 25);
+  margin-top: 50px;
+  color: #fffdfd;
+
+}
+
+
+body {
+  background-image: url('background-kids.jpg'); /* Ganti dengan URL gambar latar belakang */
+  background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
+  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+body, .gradasi-linear {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #96d4f8, #fffdfd); /* Gradasi biru gelap ke putih */
+}
+
+.character {
+  width: 80px; /* Ukuran gambar karakter */
+  margin: 10px; /* Margin di sekitar gambar */
+  transition: transform 0.3s; /* Efek transisi */
+}
+
+.character:hover {
+  transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+.icon {
+  width: 50px; /* Ukuran ikon */
+  margin: 10px; /* Margin di sekitar ikon */
+  transition: transform 0.3s; /* Efek transisi */
+}
+
+.icon:hover {
+  transform: rotate(15deg); /* Efek rotasi saat hover */
+}
+
+.card-text{
+  font-size: 15px;
+}
+
