@@ -1,0 +1,148 @@
+
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner {
+    background: url("ra.png")
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+  }
+
+  .profil-sekolah {
+    text-align: left; 
+  }
+  
+  .profil-sekolah p {
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .lingkaran {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    margin: 0 auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+
+  .sejarah {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .crop-img {
+    object-fit: cover;
+  }
+  
+  .tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+  }
+  
+  a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+  }
+  
+  .client img {
+    height: auto;
+    max-height: 50px;
+  }
+  
+  .kontak {
+    background: url("info.jpg") no-repeat
+      center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+  }
+
+  .display-6, .text-center p{
+    color: black;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gallery-slider {
+    position: relative;
+    max-width: 900px;
+    height: 500px; 
+    margin: 50px auto;
+    overflow: hidden;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+  }
+  
+
+  .slides {
+    display: flex;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .slides img {
+    aspect-ratio: 16 / 9; 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  button.prev,
+  button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  button.prev {
+    left: 10px;
+  }
+
+  button.next {
+    right: 10px;
+  }
+
+  button.prev:hover,
+  button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+.display-3, .display-6{
+  font-size: 40px;
+}
+
+.btn-lg{
+  background-color: bisque;
+  border-color: bisque;
+}
